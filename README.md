@@ -179,8 +179,8 @@
                     <ul class="space-y-3 text-gray-700">
                         <li class="flex items-center"><span class="text-accent mr-3">✦</span> Signature Madero & Brazilian Slimming</li>
                         <li class="flex items-center"><span class="text-accent mr-3">✦</span> CRYO / Fat Freeze & Fat Burner</li>
-                        <li class="flex items-center"><span class="text-accent mr-3">✦</span> EMS Muscle Stimulation & BBF Lifting</li>
-                        <li class="flex items-center"><span class="text-accent mr-3">✦</span> Lymphatic Drainage & Colon Massage</li>
+                        <li class="flex items-center"><span class="text-accent mr-3">✦</span> EMS (HIFEM) Muscle Stimulation & BBF </li>
+                        <li class="flex items-center"><span class="text-accent mr-3">✦</span> Lymphatic Drainage & Ancient Siberian Colon Therapy</li>
                         <li class="flex items-center"><span class="text-accent mr-3">✦</span> Bamboo Stick & Jet Lag Therapy</li>
                     </ul>
                 </div>
@@ -203,7 +203,7 @@
                     <ul class="space-y-3 text-gray-700">
                         <li class="flex items-center"><span class="text-accent mr-3">✦</span> Deep Scalp Cleanse for Health</li>
                         <li class="flex items-center"><span class="text-accent mr-3">✦</span> Hair Regrowth & Minimization of Hair Fall</li>
-                        <li class="flex items-center"><span class="text-accent mr-3">✦</span> Hair Filler for Strength and Shine</li>
+                        <li class="flex items-center"><span class="text-accent mr-3">✦</span> Scalp Revitliztion Therapy for Strength and Shine</li>
                         <li class="flex items-center"><span class="text-accent mr-3">✦</span> Hair Renewal Therapy</li>
                         <!-- Placeholder for visual balance -->
                         <li class="flex items-center opacity-0"><span class="text-accent mr-3">✦</span> Hair Renewal Therapy</li>
