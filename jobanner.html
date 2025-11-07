@@ -1,0 +1,393 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1024, initial-scale=1.0">
+    <title>LODYana Healing & Wellness Center</title>
+    <!-- Load Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Use Inter font family -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f7f3f1; /* Off-white, calming background */
+        }
+        /* Custom colors for a luxurious feel */
+        .color-primary { color: #36454F; } /* Deep Slate Gray */
+        .bg-primary { background-color: #36454F; }
+        .color-accent { color: #DAA520; } /* Goldenrod/Deep Gold */
+        .bg-accent { background-color: #DAA520; }
+        .border-accent { border-color: #DAA520; }
+
+        /* Custom icons using SVG for a clean look */
+        .icon-svg {
+            width: 24px;
+            height: 24px;
+            stroke-width: 2;
+            stroke-linecap: round;
+            stroke-linejoin: round;
+            fill: none;
+            transition: stroke 0.3s;
+        }
+    </style>
+</head>
+<body class="antialiased text-gray-800">
+
+    <!-- Header / Navigation (Simple) -->
+    <header class="shadow-lg bg-white/90 sticky top-0 z-50 backdrop-blur-sm">
+        <!-- Optimized for mobile: stacks header items vertically, centers text -->
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3 flex flex-col sm:flex-row justify-between items-center space-y-2 sm:space-y-0">
+            <!-- text-lg on mobile, sm:text-2xl for desktop -->
+            <h1 class="text-lg sm:text-2xl font-extrabold color-primary tracking-wider text-center">LODYana Healing and Wellness Center</h1>
+            <!-- w-full on mobile for better touch target -->
+            <a href="https://wa.me/971529353900" target="_blank" class="w-full sm:w-auto px-5 py-2 rounded-full text-white bg-primary hover:bg-gray-700 transition duration-300 shadow-md text-sm font-semibold uppercase tracking-wider text-center">Inquire Now</a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="relative overflow-hidden pt-20 pb-28 text-center" style="background-image: linear-gradient(to top, #f7f3f1 0%, #ffffff 100%);">
+        <div class="max-w-5xl mx-auto px-6">
+            <h2 class="text-sm uppercase font-semibold color-primary tracking-widest mb-3">Ancient Healing & Signature Wellness</h2>
+            <!-- HEADLINE is already responsive with text-3xl on mobile -->
+            <h1 class="font-light leading-tight color-primary mb-6">
+                <!-- Mobile: text-3xl, Desktop: text-6xl -->
+                <span class="block uppercase font-extrabold tracking-tight text-3xl sm:text-6xl">EXPERIENCE THE SCIENCE OF HOLISTIC WELLNESS</span>
+                <!-- Mobile: text-lg, Desktop: text-3xl -->
+                <span class="block color-accent uppercase text-lg sm:text-3xl font-semibold !leading-relaxed mt-4">IT ALL BEGINS WHEN YOU START YOUR HOLISTIC HEALTH JOURNEY WITH OUR ANCIENT HEALING BREATHING SESSION AND SIGNATURE ANCIENT YOGA</span>
+            </h1>
+            <!-- END UPDATED HEADLINE -->
+            <p class="text-lg sm:text-xl text-gray-600 max-w-3xl mx-auto mb-10">
+                Recharge your body and center your mind with the perfect synergy of <strong>Signature Ancient Yoga</strong> and specialized Breathwork, exclusively designed for your profound well-being.
+            </p>
+            <!-- w-full on mobile for better touch target -->
+            <a href="#services" class="inline-block w-full sm:w-auto px-10 py-4 text-lg font-bold rounded-full text-white bg-accent hover:bg-yellow-700 transition duration-300 shadow-xl transform hover:scale-105">
+                Discover Our Journey
+            </a>
+        </div>
+    </section>
+
+    <!-- USP Section: Inside Out Beauty & Tree of Life -->
+    <section class="py-20 bg-primary/95 text-white">
+        <div class="max-w-6xl mx-auto px-6 text-center">
+            <!-- TEXT COLOR CHANGED TO GRAY (text-gray-400) -->
+            <h2 class="text-3xl sm:text-4xl font-extrabold mb-4 border-b-2 border-accent inline-block pb-1 text-gray-400">
+                The Power of Inside Out Beauty
+            </h2>
+            <!-- Adjusted text color for softer look -->
+            <p class="text-lg text-gray-100 max-w-4xl mx-auto mb-12">
+                Our core belief is that true radiance is a reflection of internal health. Our philosophy is rooted in the powerful synergy of ancient wisdom and modern cosmetic science.
+            </p>
+
+            <!-- Tree of Life Metaphor: Correctly stacks on mobile, switches to 3 on md -->
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="p-6 rounded-xl bg-primary/70 shadow-2xl backdrop-blur-sm">
+                    <!-- Roots Icon (Soul) -->
+                    <svg class="icon-svg mx-auto mb-4 color-accent" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke="currentColor"><path d="M12 22a9 9 0 1 0 0-18 9 9 0 0 0 0 18z"></path><path d="M12 18v-6l-3 3-3-3m6 0l3 3 3-3"></path></svg>
+                    <h3 class="text-xl font-bold color-accent mb-2">The Roots (Inner Soul)</h3>
+                    <!-- Adjusted text color for softer look -->
+                    <p class="text-sm text-gray-300">We nourish your <strong>inner soul and well-being</strong> through focused relaxation, breathwork, and deep meditation sessions.</p>
+                </div>
+                <div class="p-6 rounded-xl bg-primary/70 shadow-2xl backdrop-blur-sm">
+                    <!-- Trunk Icon (Body) -->
+                    <svg class="icon-svg mx-auto mb-4 color-accent" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke="currentColor"><path d="M12 22v-6l-4-4 4-4m-4 4h8"></path><path d="M12 22a9 9 0 1 0 0-18 9 9 0 0 0 0 18z"></path></svg>
+                    <h3 class="text-xl font-bold color-accent mb-2">The Trunk (Body)</h3>
+                    <!-- Adjusted text color for softer look -->
+                    <p class="text-sm text-gray-300">Your body is expertly refined and toned by our luxurious manual and cutting-edge machine treatments.</p>
+                </div>
+                <div class="p-6 rounded-xl bg-primary/70 shadow-2xl backdrop-blur-sm">
+                    <!-- Branches/Leaves Icon (Outward Manifestation) -->
+                    <svg class="icon-svg mx-auto mb-4 color-accent" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke="currentColor"><circle cx="12" cy="12" r="10"></circle><path d="M16.2 7.8l-2 5-6 2 4 4 2-6z"></path></svg>
+                    <h3 class="text-xl font-bold color-accent mb-2">The Branches (Radiance)</h3>
+                    <!-- Adjusted text color for softer look -->
+                    <p class="text-sm text-gray-300">The outward manifestation flawless skin, revitalized hair, and a contoured body, brilliantly supported from the inside out.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Core Services Section (Now The Foundation) -->
+    <section id="services" class="py-20">
+        <div class="max-w-7xl mx-auto px-6">
+            <h2 class="text-3xl sm:text-4xl font-extrabold color-primary text-center mb-4">The Foundation: Mind, Breath, Sound</h2>
+            <p class="text-lg sm:text-xl text-gray-600 text-center max-w-3xl mx-auto mb-16">
+                These three signature sessions, rooted in ancient wisdom, are essential to prepare your mind and body for **maximum therapeutic benefit** from our advanced luxury treatments.
+            </p>
+
+            <!-- Services Grid: Correctly stacks on mobile, switches to 3 on md -->
+            <div class="grid md:grid-cols-3 gap-10">
+                <!-- Service 1: MIND RETREAT -->
+                <div class="bg-white p-8 rounded-2xl shadow-xl hover:shadow-2xl transition duration-300 border-t-4 border-accent">
+                    <h3 class="text-2xl font-bold color-primary mb-2">1. Mind Retreat</h3>
+                    <p class="color-accent font-semibold mb-4">“Guided Meditation for mental clarity & peace”</p>
+                    <p class="text-gray-600 mb-6 border-l-4 border-gray-200 pl-4">A calming inward journey to rest, reset, and realign the mind. This is our signature meditation experience.</p>
+                    <div class="space-y-2">
+                        <span class="block text-sm font-bold uppercase color-primary">Perfect For</span>
+                        <ul class="text-sm text-gray-700 list-disc pl-5">
+                            <li>Stress Relief</li>
+                            <li>Mental Clarity & Focus</li>
+                            <li>Emotional Healing</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Service 2: BREATH REVIVAL -->
+                <div class="bg-white p-8 rounded-2xl shadow-xl hover:shadow-2xl transition duration-300 border-t-4 border-accent">
+                    <h3 class="text-2xl font-bold color-primary mb-2">2. Breath Revival</h3>
+                    <p class="color-accent font-semibold mb-4">“Conscious Breathwork to energize & balance”</p>
+                    <p class="text-gray-600 mb-6 border-l-4 border-gray-200 pl-4">A powerful breathing session that energizes your body, improves focus, and regulates your nervous system using <strong>Ancient Pranayama</strong>.</p>
+                    <div class="space-y-2">
+                        <span class="block text-sm font-bold uppercase color-primary">Perfect For</span>
+                        <ul class="text-sm text-gray-700 list-disc pl-5">
+                            <li>Anxiety Reduction</li>
+                            <li>Low Energy & Fatigue</li>
+                            <li>Nervous System Reset</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Service 3: SACRED SOUND IMMERSION -->
+                <div class="bg-white p-8 rounded-2xl shadow-xl hover:shadow-2xl transition duration-300 border-t-4 border-accent">
+                    <h3 class="text-2xl font-bold color-primary mb-2">3. Sacred Sound Immersion</h3>
+                    <p class="color-accent font-semibold mb-4">“Sound Healing for deep relaxation & harmony”</p>
+                    <p class="text-gray-600 mb-6 border-l-4 border-gray-200 pl-4">Healing frequencies and vibrations to restore deep emotional balance and harmony, enhancing your overall well-being.</p>
+                    <div class="space-y-2">
+                        <span class="block text-sm font-bold uppercase color-primary">Perfect For</span>
+                        <ul class="text-sm text-gray-700 list-disc pl-5">
+                            <li>Deep Relaxation</li>
+                            <li>Restoring Emotional Balance</li>
+                            <li>Enhancing Inner Radiance</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cosmetic & Contouring Treatments (NEW SECTION) -->
+    <section id="treatments" class="py-20 bg-primary/5">
+        <div class="max-w-7xl mx-auto px-6">
+            <h2 class="text-3xl sm:text-4xl font-extrabold color-primary text-center mb-4">The LODYana Luxury Treatment Collection</h2>
+            <p class="text-lg sm:text-xl text-gray-600 text-center max-w-3xl mx-auto mb-16">
+                Complete your **Inside Out Beauty** transformation with our exclusive, science-backed manual and machine therapies, tailored for the elite of Abu Dhabi.
+            </p>
+
+            <!-- Treatments Grid: Correctly stacks on mobile, switches to 3 on md -->
+            <div class="grid md:grid-cols-3 gap-10">
+                <!-- Category 1: Body Contouring & Slimming -->
+                <div class="bg-white p-8 rounded-2xl shadow-xl border-t-4 border-primary">
+                    <h3 class="text-2xl font-bold color-accent mb-3">Body Contouring & Wellness</h3>
+                    <ul class="space-y-3 text-gray-700">
+                        <li class="flex items-center"><span class="text-accent mr-3">✦</span> Signature Madero & Brazilian Slimming</li>
+                        <li class="flex items-center"><span class="text-accent mr-3">✦</span> CRYO / Fat Freeze & Fat Burner</li>
+                        <li class="flex items-center"><span class="text-accent mr-3">✦</span> EMS Muscle Stimulation & BBF Lifting</li>
+                        <li class="flex items-center"><span class="text-accent mr-3">✦</span> Lymphatic Drainage & Colon Massage</li>
+                        <li class="flex items-center"><span class="text-accent mr-3">✦</span> Bamboo Stick & Jet Lag Therapy</li>
+                    </ul>
+                </div>
+
+                <!-- Category 2: Face & Skin Rejuvenation -->
+                <div class="bg-white p-8 rounded-2xl shadow-xl border-t-4 border-primary">
+                    <h3 class="text-2xl font-bold color-accent mb-3">Face & Skin Rejuvenation</h3>
+                    <ul class="space-y-3 text-gray-700">
+                        <li class="flex items-center"><span class="text-accent mr-3">✦</span> Hydra Facial & Radiant Skin</li>
+                        <li class="flex items-center"><span class="text-accent mr-3">✦</span> HIFU (High-Intensity Focused Ultrasound)</li>
+                        <li class="flex items-center"><span class="text-accent mr-3">✦</span> MESO & 24k Gold MESO</li>
+                        <li class="flex items-center"><span class="text-accent mr-3">✦</span> Perfect Eyes & Perfect Lips Treatments</li>
+                        <li class="flex items-center"><span class="text-accent mr-3">✦</span> Expert Face Contouring</li>
+                    </ul>
+                </div>
+
+                <!-- Category 3: Hair & Scalp Therapy -->
+                <div class="bg-white p-8 rounded-2xl shadow-xl border-t-4 border-primary">
+                    <h3 class="text-2xl font-bold color-accent mb-3">Hair & Scalp Therapy</h3>
+                    <ul class="space-y-3 text-gray-700">
+                        <li class="flex items-center"><span class="text-accent mr-3">✦</span> Deep Scalp Cleanse for Health</li>
+                        <li class="flex items-center"><span class="text-accent mr-3">✦</span> Hair Regrowth & Minimization of Hair Fall</li>
+                        <li class="flex items-center"><span class="text-accent mr-3">✦</span> Hair Filler for Strength and Shine</li>
+                        <li class="flex items-center"><span class="text-accent mr-3">✦</span> Hair Renewal Therapy</li>
+                        <!-- Placeholder for visual balance -->
+                        <li class="flex items-center opacity-0"><span class="text-accent mr-3">✦</span> Hair Renewal Therapy</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us / Benefits Grid -->
+    <section class="py-20 bg-gray-100">
+        <div class="max-w-7xl mx-auto px-6">
+            <h2 class="text-3xl sm:text-4xl font-extrabold color-primary text-center mb-16">Why High-Profile Clients Choose LODYana</h2>
+
+            <!-- Benefits Grid: Stacks on mobile, 2 columns on tablet, 4 on desktop -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
+                <!-- Advantage 1 -->
+                <div class="text-center p-6 bg-white rounded-xl shadow-lg">
+                    <span class="color-accent text-3xl font-bold">✔</span>
+                    <h4 class="text-xl font-semibold color-primary mt-2 mb-1">Certified Trainer</h4>
+                    <p class="text-sm text-gray-600">Guidance from an expert in both Ancient Yoga and modern breathing techniques.</p>
+                </div>
+                <!-- Advantage 2 -->
+                <div class="text-center p-6 bg-white rounded-xl shadow-lg">
+                    <span class="color-accent text-3xl font-bold">✔</span>
+                    <h4 class="text-xl font-semibold color-primary mt-2 mb-1">Calm, Private Environment</h4>
+                    <p class="text-sm text-gray-600">An exclusive sanctuary in Abu Dhabi designed for ultimate discretion and calm.</p>
+                </div>
+                <!-- Advantage 3 -->
+                <div class="text-center p-6 bg-white rounded-xl shadow-lg">
+                    <span class="color-accent text-3xl font-bold">✔</span>
+                    <h4 class="text-xl font-semibold color-primary mt-2 mb-1">Personalized Approach</h4>
+                    <p class="text-sm text-gray-600">Wellness programs tailored to your unique mind-body needs and demanding schedule.</p>
+                </div>
+                <!-- Advantage 4 -->
+                <div class="text-center p-6 bg-white rounded-xl shadow-lg">
+                    <span class="color-accent text-3xl font-bold">✔</span>
+                    <h4 class="text-xl font-semibold color-primary mt-2 mb-1">Visible Mind-Body Results</h4>
+                    <p class="text-sm text-gray-600">Tangible improvements in vitality, focus, and physical radiance.</p>
+                </div>
+            </div>
+
+            <!-- Yoga Benefits -->
+            <div class="bg-white p-10 rounded-2xl shadow-2xl border-l-8 border-accent">
+                <h3 class="text-2xl font-bold color-primary mb-4">The Transformative Benefits of Signature Ancient Yoga</h3>
+                <div class="space-y-4 text-gray-700">
+                    <p><strong>Deep Cellular Restoration</strong> Our principles promote enhanced circulation and oxygenation at a cellular level. This process is key to **detoxification**, flushing impurities that contribute to dullness and stagnation.</p>
+                    <p><strong>Stress Mastery</strong> By intentionally regulating the nervous system, we dramatically lower levels of **Cortisol**, the primary aging and weight-gaining hormone, transitioning your body to a state of profound calm.</p>
+                    <p><strong>Enhanced Vitality and Focus</strong> This deep internal reset clears mental fatigue, leading to superior **mental clarity** and a tangible boost in energy, supporting better performance in your demanding life.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Packages & Final CTA -->
+    <section id="packages" class="py-20 text-center">
+        <div class="max-w-4xl mx-auto px-6">
+            <h2 class="text-3xl sm:text-4xl font-extrabold color-primary mb-4">Start Your Transformation Today</h2>
+            <p class="text-lg sm:text-xl text-gray-600 mb-8">
+                Discover our exclusive packages that blend Signature Ancient Yoga with specialized Breathing techniques. All wellness packages include three sessions per week. Explore the options below to find the perfect fit for your wellness journey.
+            </p>
+            <!-- BUTTON UPDATED TO OPEN MODAL AND BE FULL WIDTH ON MOBILE -->
+            <button onclick="openPackageModal()" class="inline-block w-full px-10 py-4 sm:px-12 sm:py-5 text-lg sm:text-xl font-bold rounded-full text-white bg-primary hover:bg-gray-700 transition duration-300 shadow-2xl transform hover:scale-105 tracking-wider">
+                View Exclusive Packages & Pricing
+            </button>
+        </div>
+    </section>
+
+    <!-- Footer / Contact Information -->
+    <footer id="contact" class="bg-primary pt-16 pb-10 text-white">
+        <div class="max-w-7xl mx-auto px-6">
+            <!-- Footer Grid: Text is now centered on all screen sizes to enforce mobile-like view -->
+            <div class="grid md:grid-cols-3 gap-10 border-b border-gray-700 pb-10 mb-8 text-center">
+                <div>
+                    <h4 class="text-2xl font-extrabold color-accent mb-3">LODYana Healing and Wellness Center</h4>
+                    <p class="text-gray-400 text-sm">A unique blend of ancient healing and modern luxury, tailored for the elite of Abu Dhabi.</p>
+                </div>
+                <div>
+                    <h4 class="text-lg font-bold mb-3 color-accent">Location & Contact</h4>
+                    <address class="not-italic text-gray-300 space-y-2 text-sm">
+                        <!-- ADDRESS TEXT UPDATED TO A LINK -->
+                        <a href="https://maps.app.goo.gl/Xhzyor6M8dm4yDxf6" target="_blank" class="block hover:text-white transition duration-200 underline">
+                            <p>📍 Al Sahel Towers, Block A, 1st Floor,</p>
+                            <p>Same Building as Grandiose, Abu Dhabi, Corniche</p>
+                        </a>
+                        <p>☎ Landline +971 2 585 7072</p>
+                        <p>💬 <a href="https://wa.me/971529353900" target="_blank" class="underline hover:text-white transition">+971 52 935 3900</a> (WhatsApp)</p>
+                    </address>
+                </div>
+                <div>
+                    <h4 class="text-lg font-bold mb-3 color-accent">Quick Links</h4>
+                    <ul class="text-gray-300 space-y-1 text-sm">
+                        <li><a href="https://www.lodyanaspa.ae/" target="_blank" class="hover:text-white transition">www.lodyanaspa.ae</a></li>
+                        <li><a href="#services" class="hover:text-white transition">Our Healing Pillars</a></li>
+                        <!-- NEW LINK ADDED -->
+                        <li><a href="#treatments" class="hover:text-white transition">Luxury Treatments</a></li>
+                        <li><a href="javascript:void(0)" onclick="openPackageModal()" class="hover:text-white transition">Exclusive Packages</a></li>
+                    </ul>
+                </div>
+            </div>
+            <p class="text-center text-gray-500 text-xs">&copy; 2025 LODYana Healing and Wellness Center. All Rights Reserved. Exclusively for Ladies.</p>
+        </div>
+    </footer>
+
+    <!-- Package Selection Modal (Already responsive using max-w-sm/lg and relative units) -->
+    <div id="package-modal" class="fixed inset-0 z-50 hidden flex items-center justify-center bg-black bg-opacity-70 transition-opacity duration-300 opacity-0" onclick="closeModalOnOutsideClick(event)">
+        <div class="bg-white rounded-xl shadow-2xl max-w-sm sm:max-w-lg w-full m-4 p-6 sm:p-8 transform transition-all duration-300 scale-95 opacity-0" id="package-modal-content">
+            <h3 class="text-2xl sm:text-3xl font-extrabold color-primary mb-2 text-center">Exclusive Packages</h3>
+            <p class="text-sm sm:text-base text-gray-600 mb-6 sm:mb-8 text-center">Select the wellness path that aligns with your goals.</p>
+
+            <div class="space-y-4">
+                <!-- Package 1: Yoga and Pilates -->
+                <a href="https://spalodyana-oss.github.io/Yoga-Pilates/" target="_blank" class="block p-4 sm:p-5 rounded-xl border-2 border-gray-200 hover:border-accent hover:shadow-lg transition duration-300 group">
+                    <div class="flex items-center justify-between">
+                        <span class="text-lg sm:text-xl font-bold color-primary">Yoga and Pilates</span>
+                        <svg class="icon-svg color-accent group-hover:stroke-yellow-700" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke="currentColor"><path d="M5 12h14m-7-7l7 7-7 7"/></svg>
+                    </div>
+                    <p class="text-xs sm:text-sm text-gray-500 mt-1">Focus on core strength, flexibility, and alignment.</p>
+                </a>
+
+                <!-- Package 2: Signature Ancient Yoga -->
+                <a href="https://spalodyana-oss.github.io/LODYana-Healing-and-Wellness-Center/" target="_blank" class="block p-4 sm:p-5 rounded-xl border-2 border-gray-200 hover:border-accent hover:shadow-lg transition duration-300 group">
+                    <div class="flex items-center justify-between">
+                        <span class="text-lg sm:text-xl font-bold color-primary">Signature Ancient Yoga</span>
+                        <svg class="icon-svg color-accent group-hover:stroke-yellow-700" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke="currentColor"><path d="M5 12h14m-7-7l7 7-7 7"/></svg>
+                    </div>
+                    <p class="text-xs sm:text-sm text-gray-500 mt-1">Our premium blend of breathwork, meditation, and ancient yoga techniques.</p>
+                </a>
+            </div>
+            
+            <button onclick="closePackageModal()" class="mt-8 w-full py-3 rounded-full text-white bg-primary hover:bg-gray-700 transition duration-300 font-semibold">
+                Close
+            </button>
+        </div>
+    </div>
+
+    <script>
+        // JavaScript for Modal Control
+        function openPackageModal() {
+            const modal = document.getElementById('package-modal');
+            const content = document.getElementById('package-modal-content');
+
+            // Show the modal wrapper
+            modal.classList.remove('hidden');
+            
+            // Animate the content in (slight delay to ensure display:flex is set)
+            setTimeout(() => {
+                modal.classList.add('opacity-100');
+                content.classList.remove('scale-95', 'opacity-0');
+            }, 10);
+        }
+
+        function closePackageModal() {
+            const modal = document.getElementById('package-modal');
+            const content = document.getElementById('package-modal-content');
+
+            // Animate the content out
+            modal.classList.remove('opacity-100');
+            content.classList.add('scale-95', 'opacity-0');
+
+            // Hide the modal wrapper after animation
+            setTimeout(() => {
+                modal.classList.add('hidden');
+            }, 300);
+        }
+
+        // Close modal when clicking outside the content area
+        function closeModalOnOutsideClick(event) {
+            const modal = document.getElementById('package-modal');
+            
+            // Check if the click occurred on the modal background itself (not the content)
+            if (event.target === modal) {
+                closePackageModal();
+            }
+        }
+
+        // Close modal when Escape key is pressed
+        document.addEventListener('keydown', (e) => {
+            const modal = document.getElementById('package-modal');
+            if (e.key === 'Escape' && !modal.classList.contains('hidden')) {
+                closePackageModal();
+            }
+        });
+    </script>
+
+</body>
+</html>
